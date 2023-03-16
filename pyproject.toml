@@ -16,18 +16,6 @@ docs = "mkdocs serve"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-hat-core = "^2022.12.1"
-
-[tool.poetry.dev-dependencies]
-hat-dev = "^2022.12.1"
-# TODO Create hat-docs
-mkdocs-awesome-pages-plugin = "^2.8.0"
-mkdocs-material = "^9.0.5"
-mkdocs-mermaid2-plugin = "^0.6.0"
-mkdocs-simple-plugin = "^2.2.0"
-mkdocs-table-reader-plugin = "^1.2"
-mkdocstrings = "^0.19.1"
-pytkdocs = "^0.16.1"
 
 [tool.black]
 line-length = 120
