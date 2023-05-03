@@ -21,31 +21,27 @@ repos:
     hooks:
       - id: check-json5
   - repo: https://github.com/psf/black
-    rev: 22.12.0
+    rev: 23.1.0
     hooks:
       - id: black
         exclude: ^templates/
-  - repo: https://gitlab.com/smop/pre-commit-hooks
-    rev: v1.0.0
-    hooks:
-      - id: check-poetry
   - repo: https://github.com/PyCQA/flake8
     rev: 6.0.0
     hooks:
       - id: flake8
         exclude: ^templates/
   - repo: https://github.com/pycqa/isort
-    rev: v5.11.3
+    rev: 5.12.0
     hooks:
       - id: isort
         args: ["--profile", "black", "--filter-files", "--resolve-all-configs"]
   - repo: https://github.com/PyCQA/autoflake
-    rev: v1.4
+    rev: v2.0.2
     hooks:
       - id: autoflake
         args: ["--in-place", "--remove-all-unused-imports"]
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v3.0.0-alpha.4
+    rev: v3.0.0-alpha.6
     hooks:
       - id: prettier
         exclude_types: ["markdown", "svg"]
