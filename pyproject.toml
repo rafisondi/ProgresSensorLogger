@@ -7,7 +7,7 @@ requires-python = ">=3.8,<3.11"
 license = "MIT"
 keywords = []
 authors = [
-    { name = "Your Name", email = "yournameinspire.ethz.ch" },
+    { name = "Your Name", email = "yourname@inspire.ethz.ch" },
     { name = "Ivo Aschwanden", email = "aschwanden@inspire.ethz.ch" },
 ]
 classifiers = [
