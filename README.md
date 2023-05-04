@@ -12,14 +12,14 @@ This is the template GitHub project for our group.
     - under `[project]` the `name` to your project name without the python version.
     - `authors`: change the placeholder `Your Name` to your own name and change the email address.
 1. Then run the following commands to setup your environment
-  1. Create a new virtual environment according to the `conda.yml` file.
-    - `conda env create -f conda.yml`
-  1. Activate your newly created project. Make sure to replace `<myproject>` with the project name you set in the `conda.yml`
-    - `conda activate <myproject>`
-  1. Install all the dependencies listed in the `pyproject.toml`
-    - `hatch env create`
-  1. Set up pre-commits, which correct the formatting of your files among other things.
-    - `pre-commit install`
+    1. Create a new virtual environment according to the `conda.yml` file.
+        - `conda env create -f conda.yml`
+    1. Activate your newly created project. Make sure to replace `<myproject>` with the project name you set in the `conda.yml`
+        - `conda activate <myproject>`
+    1. Install all the dependencies listed in the `pyproject.toml`
+        - `hatch env create`
+    1. Set up pre-commits, which correct the formatting of your files among other things.
+        - `pre-commit install`
 
 ## How to install a new python module
 
@@ -27,15 +27,15 @@ To install a new python package, for example `hat-creaform`:
 
 1. Add it as a dependency inside the `pyproject.toml`:
 
-  ```diff
-  [project]
-  ...
-  dependencies = [
-      "hat-core",
-  +   "hat-creaform"
-  ]
-  ...
-  ```
+    ```diff
+    [project]
+    ...
+    dependencies = [
+        "hat-core",
+    +   "hat-creaform"
+    ]
+    ...
+    ```
 
 2. Reload the environment to automatically install the added packages of the `pyproject.toml`:
-  - `hatch env create`
+    - `hatch env create`
