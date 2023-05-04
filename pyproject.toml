@@ -25,6 +25,7 @@ dependencies = [
 [tool.hatch.envs.default]
 type = "monorepo"
 dependencies = [
+	"hat-dev",
     "hat-docs"
 ]
 
