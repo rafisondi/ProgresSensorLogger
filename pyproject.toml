@@ -5,6 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "myproject"
 description = ''
+version = "0.0.1"
 readme = "README.md"
 requires-python = ">=3.8,<3.11"
 license = "MIT"
@@ -21,10 +22,7 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
 ]
 dependencies = []
-dynamic = ["version"]
 
-[tool.hatch.version]
-path = "version.py"
 
 [tool.hatch.envs.default]
 type = "monorepo"
