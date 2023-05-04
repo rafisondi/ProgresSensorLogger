@@ -27,7 +27,7 @@ To install a new python package, for example `hat-creaform`, add it as a depende
 [project]
 ...
 dependencies = [
-    "hat-docs",
+    "hat-core",
 +   "hat-creaform"
 ]
 ...
