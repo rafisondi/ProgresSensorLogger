@@ -44,5 +44,5 @@ profile = "black"
 line_length = 120
 
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling<=1.18.0"]
 build-backend = "hatchling.build"
