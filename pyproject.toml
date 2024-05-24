@@ -1,5 +1,5 @@
 [project]
-name = "myproject"
+name = "progresLogger"
 version = "0.0.1"
 description = ""
 readme = "README.md"
@@ -26,7 +26,8 @@ dependencies = [
 type = "monorepo"
 dependencies = [
 	"hat-dev",
-    "hat-docs"
+    "hat-docs",
+    "hat-proges"
 ]
 
 [tool.hatch.envs.default.env-vars]

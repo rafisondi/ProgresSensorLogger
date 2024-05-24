@@ -1,4 +1,4 @@
-name: myproject39
+name: progresLogger39
 channels:
   - conda-forge
   - defaults
